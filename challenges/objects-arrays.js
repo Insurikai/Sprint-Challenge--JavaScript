@@ -45,21 +45,21 @@ const velociraptor = new Dinosaur({
 
 // Using your dinosaur objects, log answers to these questions:
 
-// // How much did tyrannosaurus weigh?
-// console.log(tyrannosaurus.weight);
+// How much did tyrannosaurus weigh?
+console.log(tyrannosaurus.weight);
 
-// // What was the diet of a velociraptor?
-// console.log(velociraptor.diet);
+// What was the diet of a velociraptor?
+console.log(velociraptor.diet);
 
-// // How long was a stegosaurus?
-// console.log(stegosaurus.length);
+// How long was a stegosaurus?
+console.log(stegosaurus.length);
 
-// // What time period did tyrannosaurus live in?
-// console.log(tyrannosaurus.period);
+// What time period did tyrannosaurus live in?
+console.log(tyrannosaurus.period);
 
 
-// // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-// console.log(tyrannosaurus.roar());
+// Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
+console.log(tyrannosaurus.roar());
 
 
 // ==== Arrays ====
