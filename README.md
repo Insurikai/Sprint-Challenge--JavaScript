@@ -29,15 +29,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+.forEach: modifies the parent array.
+.map: creates a new array and modifies that.
 2. What is the difference between a function and a method?
-
+A method is housed in a class and dont need to use the "function" keyword where a function does.
 3. What is closure?
-
+A closure is the concept where a nested object has access to all of the functions/variables of its parents
 4. Describe the four rules of the 'this' keyword.
-
+New: this is defined as the object which the function is assigned. "let Doug = new Parent(); this === Doug"
+Window: this is the window and the returned value is whatever value window has stored, or "undefined" if "no scope". "this.name = undefined"
+Explicit: this is defined by what is passed in to call(), apply(), or . "parent.call({name: "johnny", skills: [] })"
+Implicit: this is defined by the object where the function/property is called on "this.age"
 5. Why do we need super() in an extended class?
-
+super() calls the constructor of the class which this class extends from, it is needed so that the properties of the parent class can be inherited.
 ## Project Set up
 
 Follow these steps to set up and work on your project:
